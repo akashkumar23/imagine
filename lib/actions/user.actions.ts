@@ -1,5 +1,5 @@
 "use server";
-
+// Server Actions and Mutations  are done here CRUD
 import { revalidatePath } from "next/cache";
 
 import User from "../database/models/user.model";
